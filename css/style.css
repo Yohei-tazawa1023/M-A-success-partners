@@ -1,0 +1,153 @@
+html {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.container  {
+  width: 90%;
+  max-width: 1120px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* ヘッター */
+header {
+  padding: 27px 0;
+}
+
+.header_menu li {
+  margin-left: 40px;
+  color: #203060;
+}
+
+.btn {
+  background: #1a1a40;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+/* メイン */
+#hero {
+  background-image: url(../images/hero.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 540px;
+  display: flex;
+  align-items: center;
+}
+
+.hero_inner {
+  color: #ffff;
+  width: 100%;
+  text-align: center;
+}
+
+.hero_inner h1 {
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 44px;
+}
+
+.hero_inner p {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.btn_white {
+  display: inline-block;
+  background: #fff;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+/* 悩み */
+#problems {
+  background-image: url(../images/problems.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 540px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 90px;
+}
+
+#problems::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.2;
+  z-index: 1;
+}
+
+.problems_inner {
+  color: #ffff;
+  width: 100%;
+  z-index: 2;
+}
+
+.problems_inner h2 {
+  font-size: 36px;
+  font-weight: 500;
+  text-align: center;
+  top: 0;
+  right: 0;
+  transform: translateY(-300%);
+}
+
+.problems1 {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+  top: 0;
+  right: 0;
+  transform: translateY(-300%);
+}
+
+
+/* サービス */
+
+.title_sub {
+  font-size: 20px;
+  font-weight: 500;
+  color: #203060;
+  margin-bottom: 20px;
+  text-align: center
+}
+
+.title_main {
+  font-size: 36px;
+  font-weight: 700;
+  color: #203060;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.column-55 {
+  width: 48%;
+}
+
+.tatle {
+  font-size: 24px;
+  font-weight: 500;
+  color: #203060;
+  margin-bottom: 20px;
+}
+
+.text {
+  color: #203060;
+  margin-bottom: 80px;
+}
